@@ -1,0 +1,164 @@
+*{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.web {
+    width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: 120px;
+}
+.d_logo{
+    width: 250px ;
+    height: 80px;
+}
+.logo {
+    width: 100%;
+    height: 100%;
+    margin-left: 200px;
+}
+.menu{
+    width: auto;
+    height: 40px;
+    background-color: rgb(163, 32, 32);
+}
+.menu ul li {
+    list-style: none;
+    text-align: center;
+    width:100px;
+}
+.body{
+    display: flex;
+}
+.left{
+    flex: 1;
+    height: 900px;
+}
+.mid {
+    flex: 4;
+    margin: 20px;
+    display: flex;
+}
+.baichinh {
+    flex: 7;
+    margin-right: 20px;
+}
+.baichinh iframe {
+    width: 740px;
+    height: 400px;
+}
+.baicon {
+    flex: 3;
+}
+.right {
+    flex: 1 ;
+    height: 900px;
+}
+.ul_c1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 1200px;
+    padding-left: 100px ;
+}
+.li_c1 {
+    position: relative;
+}
+.li_c1:hover {
+    background-color: rgb(197, 131, 131);
+    
+}
+.li_c1 a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+}
+.li_c1 a i {
+    height: 40px;
+    line-height: 40px;
+}
+.timkiem{
+    display: flex;
+} 
+.li_c1 input {
+    width: 250px;
+    height: 30px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+.li_c1:hover .ul_c2{
+    display: block;
+}
+.ul_c2 {
+    width: 100px;
+    height: 120px;
+    display: none;
+    position: absolute;
+    background-color: rgb(163, 32, 32);
+}
+.li_c2:hover {
+    background-color: rgb(197, 131, 131);
+}
+.li_c2 {
+    width: 100px;
+    height: 40px;
+    text-align: left;
+}
+.li_c2 a {
+    text-align: left;
+}
+.li_c2 a i {
+    height: 40px;
+    line-height: 40px;
+}
+.conkhac{
+    display: flex;
+}
+.conkhac img {
+    width: 150px;
+    height: 90px;
+}
+.conkhac h4 {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+h2 {
+    margin-top: 20px;
+}
+h2 a {
+    text-decoration: none;
+    color: #000;
+}
+p{
+    margin-top: 10px;
+}
+.baicon h4 {
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+.danhmuccon{
+    width: 100%;
+    height: 25px;
+    background-color: rgb(155, 29, 29);
+}
+.muccon{
+    display: flex;
+}
+.cacmuc img {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 100px;
+    height: 80px;
+}
+.cacmuc h4 {
+    margin-top: 10px;
+    color: black;
+    line-height: normal;
+    text-align: left;
+}
